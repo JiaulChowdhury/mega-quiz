@@ -1,0 +1,28 @@
+.options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.quiz-set{
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.quiz-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .options{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+    }
+  }

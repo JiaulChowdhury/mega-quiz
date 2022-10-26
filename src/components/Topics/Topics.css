@@ -1,0 +1,22 @@
+.banner img{
+    max-width: 100%;
+    width: 300px;
+
+}
+
+.topic-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
+    column-gap: 50px;
+    margin: 3vw 5vw;
+}
+
+@media screen and (max-width: 600px) {
+    .topic-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  }

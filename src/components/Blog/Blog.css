@@ -1,0 +1,20 @@
+.blogDetails{
+    text-align: left;
+    color: black;
+    margin: 3vw;
+    
+}
+.blogDetails h1{
+    margin-left: 60px;
+}
+.blogDetails div{
+    margin-left: 60px;
+    text-align: justify;
+    
+}
+
+.blogDetails-details{
+    margin: 40px;
+}
+
+
